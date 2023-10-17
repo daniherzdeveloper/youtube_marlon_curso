@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="hello_world_inherit" model="ir.ui.view">
+        <field name="name">ej.pet.view.form.inherit</field>
+        <field name="model">ej.pet</field>
+        <field name="inherit_id" ref="hello_w.ej_pet_view_form"/>
+        <field name="arch" type="xml">
+            <field name="name" position='after'>
+                <field name="fur" />
+                <field name="is_pretty_name" />
+                <field name="date_b" />
+                <!-- <field name="to_walk" readonly='1'/> -->
+            </field>
+            <field name="is_new" position='replace'>
+                <field name="to_walk" />
+            </field>
+            
+        </field>
+    </record>
+    
+    <record id="ej_pet_view_tree_inherit" model="ir.ui.view">
+        <field name="name">ej.pet.view.tree.inherit</field>
+        <field name="model">ej.pet</field>
+        <field name="inherit_id" ref="hello_w.ej_pet_view_tree"/>
+        <field name="arch" type="xml">
+            <field name="name" position='after'>
+                <field name="to_walk" optional='show' />
+                <field name="fur" optional='show' />
+                <field name="is_pretty_name" />
+                <field name="date_b" />
+            </field>
+        </field>
+    </record>
+</odoo>
