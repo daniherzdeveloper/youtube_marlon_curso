@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- tree views -->
+    <record id="sis_specialties_view_tree" model="ir.ui.view">
+        <field name="name">sis.specialties.view.tree</field>
+        <field name="model">sis.specialties</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />  
+            </tree>
+        </field>
+    </record>
+
+    <!-- form views -->
+    <record id="sis_specialties_view_form" model="ir.ui.view">
+        <field name="name">sis.specialties.view.form</field>
+        <field name="model">sis.specialties</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" />  
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="sis_action_specialties" model="ir.actions.act_window">
+        <field name="name">Specialties</field>
+        <field name="res_model">sis.specialties</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="sis_specialties_view_tree"/>
+    </record>
+    
+    <menuitem
+        id="sis_specialties_action_sub_menu"
+        name="Specialties"
+        action="sis_action_specialties"
+        parent="sis_maintainer_sub_menu"
+        sequence="10"/>
+</odoo>

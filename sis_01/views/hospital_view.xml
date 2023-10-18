@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- tree views -->
+    <record id="sis_hospital_view_tree" model="ir.ui.view">
+        <field name="name">sis.hospital.view.tree</field>
+        <field name="model">sis.hospital</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="country_id" />   
+            </tree>
+        </field>
+    </record>
+
+    <!-- form views -->
+    <record id="sis_hospital_view_form" model="ir.ui.view">
+        <field name="name">sis.hospital.view.form</field>
+        <field name="model">sis.hospital</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" />
+                            <field name="country_id" />   
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="sis_action_hospital" model="ir.actions.act_window">
+        <field name="name">Hospital</field>
+        <field name="res_model">sis.hospital</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="sis_hospital_view_tree"/>
+    </record>
+    
+    <menuitem
+        id="sis_hospital_menu"
+        name="Hospital"
+        web_icon="sis_01,static/description/icon.png"
+        sequence="10"/>
+
+    <menuitem
+        id="sis_maintainer_sub_menu"
+        name="Maintainer"
+        parent="sis_hospital_menu"
+        sequence="10"/>
+
+    <menuitem
+        id="sis_hospital_action_sub_menu"
+        name="Hospital"
+        action="sis_action_hospital"
+        parent="sis_maintainer_sub_menu"
+        sequence="10"/>
+</odoo>

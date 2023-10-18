@@ -1,0 +1,147 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sis_01
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-18 16:53+0000\n"
+"PO-Revision-Date: 2023-10-18 16:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sis_01
+#: model_terms:ir.ui.view,arch_db:sis_01.res_partner_inherit
+msgid "00000000-0"
+msgstr ""
+
+#. module: sis_01
+#: model:ir.actions.act_window,name:sis_01.sis_action_consultations
+#: model:ir.model,name:sis_01.model_sis_consultations
+#: model:ir.ui.menu,name:sis_01.sis_consultations_action_sub_menu
+#: model:ir.ui.menu,name:sis_01.sis_consultations_sub_menu
+msgid "Consultations"
+msgstr "Consultas"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_sis_consultations__name
+msgid "Consultations Name"
+msgstr "Nombre de las consultas"
+
+#. module: sis_01
+#: model:ir.model,name:sis_01.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_sis_hospital__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_sis_consultations__create_uid
+#: model:ir.model.fields,field_description:sis_01.field_sis_hospital__create_uid
+#: model:ir.model.fields,field_description:sis_01.field_sis_specialties__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_sis_consultations__create_date
+#: model:ir.model.fields,field_description:sis_01.field_sis_hospital__create_date
+#: model:ir.model.fields,field_description:sis_01.field_sis_specialties__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_sis_consultations__display_name
+#: model:ir.model.fields,field_description:sis_01.field_sis_hospital__display_name
+#: model:ir.model.fields,field_description:sis_01.field_sis_specialties__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: sis_01
+#: model:ir.actions.act_window,name:sis_01.sis_action_hospital
+#: model:ir.model,name:sis_01.model_sis_hospital
+#: model:ir.ui.menu,name:sis_01.sis_hospital_action_sub_menu
+#: model:ir.ui.menu,name:sis_01.sis_hospital_menu
+msgid "Hospital"
+msgstr "Hospital"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_sis_hospital__name
+msgid "Hospital Name"
+msgstr "Nombre del hospital"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_sis_consultations__id
+#: model:ir.model.fields,field_description:sis_01.field_sis_hospital__id
+#: model:ir.model.fields,field_description:sis_01.field_sis_specialties__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_sis_consultations____last_update
+#: model:ir.model.fields,field_description:sis_01.field_sis_hospital____last_update
+#: model:ir.model.fields,field_description:sis_01.field_sis_specialties____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_sis_consultations__write_uid
+#: model:ir.model.fields,field_description:sis_01.field_sis_hospital__write_uid
+#: model:ir.model.fields,field_description:sis_01.field_sis_specialties__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por última vez por"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_sis_consultations__write_date
+#: model:ir.model.fields,field_description:sis_01.field_sis_hospital__write_date
+#: model:ir.model.fields,field_description:sis_01.field_sis_specialties__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: sis_01
+#: model:ir.ui.menu,name:sis_01.sis_maintainer_sub_menu
+msgid "Maintainer"
+msgstr "Mantenedor"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_sis_consultations__partner_id
+msgid "Patient"
+msgstr "Paciente"
+
+#. module: sis_01
+#: model:ir.actions.act_window,name:sis_01.sis_action_specialties
+#: model:ir.model,name:sis_01.model_sis_specialties
+#: model:ir.model.fields,field_description:sis_01.field_sis_consultations__specialties_id
+#: model:ir.ui.menu,name:sis_01.sis_specialties_action_sub_menu
+msgid "Specialties"
+msgstr "Especialidades"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_sis_specialties__name
+msgid "Specialties Name"
+msgstr "Nombre de especialidades"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_res_partner__age
+#: model:ir.model.fields,field_description:sis_01.field_res_users__age
+msgid "age"
+msgstr "edad"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_res_partner__profession
+#: model:ir.model.fields,field_description:sis_01.field_res_users__profession
+msgid "profession"
+msgstr "profesión"
+
+#. module: sis_01
+#: model:ir.model.fields,field_description:sis_01.field_res_partner__rut
+#: model:ir.model.fields,field_description:sis_01.field_res_users__rut
+msgid "rut"
+msgstr "rut"

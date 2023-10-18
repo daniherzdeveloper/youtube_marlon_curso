@@ -1,0 +1,1 @@
+from . import hospital, specialties, consultations, res_partenr_inherit

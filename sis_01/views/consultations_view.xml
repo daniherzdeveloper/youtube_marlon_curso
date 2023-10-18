@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- tree views -->
+    <record id="sis_consultations_view_tree" model="ir.ui.view">
+        <field name="name">sis.consultations.view.tree</field>
+        <field name="model">sis.consultations</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="partner_id" />
+                <field name="specialties_id" />   
+            </tree>
+        </field>
+    </record>
+
+    <!-- form views -->
+    <record id="sis_consultations_view_form" model="ir.ui.view">
+        <field name="name">sis.consultations.view.form</field>
+        <field name="model">sis.consultations</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" />
+                            <field name="partner_id" />
+                            <field name="specialties_id" />   
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="sis_action_consultations" model="ir.actions.act_window">
+        <field name="name">Consultations</field>
+        <field name="res_model">sis.consultations</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="sis_consultations_view_tree"/>
+    </record>
+    
+    <menuitem
+        id="sis_consultations_sub_menu"
+        name="Consultations"
+        parent="sis_hospital_menu"
+        sequence="10"/>
+
+    <menuitem
+        id="sis_consultations_action_sub_menu"
+        name="Consultations"
+        action="sis_action_consultations"
+        parent="sis_consultations_sub_menu"
+        sequence="10"/>
+</odoo>
