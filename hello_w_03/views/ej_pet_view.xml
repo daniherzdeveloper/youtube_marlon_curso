@@ -8,7 +8,9 @@
             <field name="name" position='after'>
                 <field name="fur" />
                 <field name="is_pretty_name" />
+                <field name="is_not_pretty_name" />
                 <field name="date_b" />
+                <field name="mydb" />
                 <!-- <field name="to_walk" readonly='1'/> -->
             </field>
             <field name="is_new" position='replace'>
@@ -28,6 +30,8 @@
                 <field name="fur" optional='show' />
                 <field name="is_pretty_name" />
                 <field name="date_b" />
+                <field name="is_not_pretty_name" />
+                <field name="mydb" />
             </field>
         </field>
     </record>

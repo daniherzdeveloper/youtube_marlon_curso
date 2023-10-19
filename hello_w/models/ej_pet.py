@@ -9,6 +9,8 @@ class EjPet(models.Model):
     color = fields.Char('color', required=True)
     is_new = fields.Boolean('is_new', default=True)
 
+    pretty_name = fields.Boolean('Pretty Name')
+
     type = fields.Selection([
         ('dog', 'Dog'),
         ('cat', 'Cat'),

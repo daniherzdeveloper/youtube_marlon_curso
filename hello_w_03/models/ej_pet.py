@@ -8,11 +8,19 @@ class EjPet(models.Model):
     date_b = fields.Date('Fecha', default=fields.Date.today)
 
     is_pretty_name = fields.Boolean('Is Pretty Name', compute='_compute_is_pretty_name')
+    is_not_pretty_name = fields.Boolean('is_not_pretty_name', compute='_compute_not_pretty_name', store=True)
 
-    @api.depends('fur')
+    mydb = fields.Char(default=lambda self: self.env.cr.dbname, string='db')
+
+    @api.depends('pretty_name', 'fur')
     def _compute_is_pretty_name(self):
         for record in self:
-            record.is_pretty_name = record.fur == 'Blue'
+            record.is_pretty_name = record.pretty_name or record.fur.lower() == 'blue'
+
+    @api.depends('pretty_name')
+    def _compute_not_pretty_name(self):
+        for record in self:
+            record.is_not_pretty_name = not record.pretty_name
 
     
     

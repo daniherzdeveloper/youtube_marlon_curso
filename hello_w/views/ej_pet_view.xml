@@ -10,7 +10,8 @@
                 <field name="age" />
                 <field name="color" />
                 <field name="type" />
-                <field name="is_new" />    
+                <field name="is_new" />
+                <field name="pretty_name" />     
             </tree>
         </field>
     </record>
@@ -30,7 +31,8 @@
                         </group>
                         <group>
                            <field name="color" />
-                           <field name="type" /> 
+                           <field name="type" />
+                           <field name="pretty_name" /> 
                         </group>
                     </group>
                 </sheet>
