@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-18 21:22+0000\n"
-"PO-Revision-Date: 2023-10-18 21:22+0000\n"
+"POT-Creation-Date: 2023-10-19 14:56+0000\n"
+"PO-Revision-Date: 2023-10-19 14:56+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,7 @@ msgstr ""
 
 #. module: olympic_medal_table
 #: model:ir.actions.act_window,name:olympic_medal_table.action_omt_athletes
+#: model:ir.ui.menu,name:olympic_medal_table.omt_athletes_action_sub_menu
 #: model:ir.ui.menu,name:olympic_medal_table.omt_athletes_sub_menu
 msgid "Athletes"
 msgstr "Atletas"
@@ -28,44 +29,70 @@ msgstr "País"
 
 #. module: olympic_medal_table
 #: model:ir.model.fields,field_description:olympic_medal_table.field_omt_athletes__create_uid
+#: model:ir.model.fields,field_description:olympic_medal_table.field_omt_olympic_game__create_uid
 msgid "Created by"
 msgstr "Creado por"
 
 #. module: olympic_medal_table
 #: model:ir.model.fields,field_description:olympic_medal_table.field_omt_athletes__create_date
+#: model:ir.model.fields,field_description:olympic_medal_table.field_omt_olympic_game__create_date
 msgid "Created on"
 msgstr "Creado en"
 
 #. module: olympic_medal_table
 #: model:ir.model.fields,field_description:olympic_medal_table.field_omt_athletes__display_name
+#: model:ir.model.fields,field_description:olympic_medal_table.field_omt_olympic_game__display_name
 msgid "Display Name"
 msgstr "Nombre para mostrar"
 
 #. module: olympic_medal_table
 #: model:ir.model.fields,field_description:olympic_medal_table.field_omt_athletes__id
+#: model:ir.model.fields,field_description:olympic_medal_table.field_omt_olympic_game__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
+
+#. module: olympic_medal_table
+#: model_terms:ir.ui.view,arch_db:olympic_medal_table.omt_athletes_view_form
+msgid "Personal Information"
+msgstr "Información Personal"
 
 #. module: olympic_medal_table
 #: model:ir.model.fields,field_description:olympic_medal_table.field_omt_athletes____last_update
+#: model:ir.model.fields,field_description:olympic_medal_table.field_omt_olympic_game____last_update
 msgid "Last Modified on"
 msgstr "Ultima modificación el"
 
 #. module: olympic_medal_table
 #: model:ir.model.fields,field_description:olympic_medal_table.field_omt_athletes__write_uid
+#: model:ir.model.fields,field_description:olympic_medal_table.field_omt_olympic_game__write_uid
 msgid "Last Updated by"
 msgstr "Actualizado por última vez por"
 
 #. module: olympic_medal_table
 #: model:ir.model.fields,field_description:olympic_medal_table.field_omt_athletes__write_date
+#: model:ir.model.fields,field_description:olympic_medal_table.field_omt_olympic_game__write_date
 msgid "Last Updated on"
 msgstr "Ultima actualización en"
 
 #. module: olympic_medal_table
-#: model:ir.ui.menu,name:olympic_medal_table.omt_athletes_action_sub_menu
+#: model_terms:ir.ui.view,arch_db:olympic_medal_table.omt_athletes_view_form
+msgid "Medals"
+msgstr "Medallas"
+
+#. module: olympic_medal_table
+#: model:ir.actions.act_window,name:olympic_medal_table.omt_olympic_game_action
+#: model:ir.model.fields,field_description:olympic_medal_table.field_omt_athletes__olympic_game_id
+#: model:ir.ui.menu,name:olympic_medal_table.omt_olympic_game_menu
+#: model_terms:ir.ui.view,arch_db:olympic_medal_table.omt_athletes_view_search
+#: model_terms:ir.ui.view,arch_db:olympic_medal_table.omt_olympic_game_view_form
+#: model_terms:ir.ui.view,arch_db:olympic_medal_table.omt_olympic_game_view_tree
+msgid "Olympic Game"
+msgstr "Juegos Olimpicos"
+
+#. module: olympic_medal_table
 #: model:ir.ui.menu,name:olympic_medal_table.omt_athletes_menu
-msgid "Rio 2016"
-msgstr "Rio 2016"
+msgid "Olympic Medal table"
+msgstr "Medallero Olímpico"
 
 #. module: olympic_medal_table
 #: model:ir.model.fields,field_description:olympic_medal_table.field_omt_athletes__active
@@ -89,8 +116,14 @@ msgstr "oro"
 
 #. module: olympic_medal_table
 #: model:ir.model.fields,field_description:olympic_medal_table.field_omt_athletes__name
+#: model:ir.model.fields,field_description:olympic_medal_table.field_omt_olympic_game__name
 msgid "name"
 msgstr "Nombre"
+
+#. module: olympic_medal_table
+#: model:ir.model,name:olympic_medal_table.model_omt_olympic_game
+msgid "omt.olympic.game"
+msgstr ""
 
 #. module: olympic_medal_table
 #: model:ir.model.fields,field_description:olympic_medal_table.field_omt_athletes__silver

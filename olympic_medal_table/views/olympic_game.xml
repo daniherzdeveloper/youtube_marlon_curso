@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- view tree -->
+    <record id="omt_olympic_game_view_tree" model="ir.ui.view">
+        <field name="name">omt.olympic.game.view.tree</field>
+        <field name="model">omt.olympic.game</field>
+        <field name="arch" type="xml">
+            <tree string="Olympic Game">
+                <field name="name" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- view form -->
+    <record id="omt_olympic_game_view_form" model="ir.ui.view">
+        <field name="name">omt.olympic.game.view.form</field>
+        <field name="model">omt.olympic.game</field>
+        <field name="arch" type="xml">
+            <form string="Olympic Game">
+                <sheet>
+                    <group>
+                        <field name="name" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- action -->
+    <record id="omt_olympic_game_action" model="ir.actions.act_window">
+        <field name="name">Olympic Game</field>
+        <field name="res_model">omt.olympic.game</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="omt_olympic_game_view_tree"/>
+    </record>
+
+    <!-- menu -->
+    <menuitem
+        id="omt_olympic_game_menu"
+        name="Olympic Game"
+        action="omt_olympic_game_action"
+        parent="omt_athletes_menu"
+        sequence="10"/>
+
+</odoo>

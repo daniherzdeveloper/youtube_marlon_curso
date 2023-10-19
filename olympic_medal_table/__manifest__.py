@@ -8,6 +8,7 @@
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
-        'views/athletes_view.xml'
+        'views/athletes_view.xml',
+        'views/olympic_game.xml',
     ],
 }

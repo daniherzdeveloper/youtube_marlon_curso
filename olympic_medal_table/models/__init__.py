@@ -1,1 +1,1 @@
-from . import athletes
+from . import athletes, olympic_game

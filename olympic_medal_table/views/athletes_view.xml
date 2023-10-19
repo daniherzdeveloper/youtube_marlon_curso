@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!-- tree views -->
+    <!-- tree view -->
     <record id="omt_athletes_view_tree" model="ir.ui.view">
         <field name="name">omt.athletes.view.tree</field>
         <field name="model">omt.athletes</field>
@@ -8,6 +8,7 @@
             <tree>
                 <field name="name" />
                 <field name="country_id" />
+                <field name="olympic_game_id" />
                 <field name="gold" />
                 <field name="silver" />
                 <field name="bronze" />  
@@ -16,7 +17,7 @@
         </field>
     </record>
 
-    <!-- form views -->
+    <!-- form view -->
     <record id="omt_athletes_view_form" model="ir.ui.view">
         <field name="name">omt.athletes.view.form</field>
         <field name="model">omt.athletes</field>
@@ -24,12 +25,13 @@
             <form>
                 <sheet>
                     <group>
-                        <group string="Información Personal">
+                        <group string="Personal Information">
                             <field name="name" />
                             <field name="country_id" />
                             <field name="active" />
+                            <field name="olympic_game_id" />
                         </group>
-                        <group string="Medallas">
+                        <group string="Medals">
                            <field name="gold" />
                            <field name="silver" />
                            <field name="bronze" />  
@@ -40,6 +42,20 @@
         </field>
     </record>
 
+    <!-- search view -->
+    <record id="omt_athletes_view_search" model="ir.ui.view">
+        <field name="name">omt.athletes.view.search</field>
+        <field name="model">omt.athletes</field>
+        <field name="arch" type="xml">
+            <search string="Olympic Game">
+                <searchpanel>
+                    <field name="olympic_game_id" string="Olympic Game" />
+                </searchpanel>        
+            </search>
+        </field>
+    </record>
+
+    <!-- action -->
     <record id="action_omt_athletes" model="ir.actions.act_window">
         <field name="name">Athletes</field>
         <field name="res_model">omt.athletes</field>
@@ -47,9 +63,10 @@
         <field name="view_id" ref="omt_athletes_view_tree"/>
     </record>
     
+    <!-- menu -->
     <menuitem
         id="omt_athletes_menu"
-        name="Rio 2016"
+        name="Olympic Medal table"
         web_icon="olympic_medal_table,static/description/icon.png"
         sequence="10"/>
 
@@ -61,7 +78,7 @@
 
     <menuitem
         id="omt_athletes_action_sub_menu"
-        name="Rio 2016"
+        name="Athletes"
         action="action_omt_athletes"
         parent="omt_athletes_sub_menu"
         sequence="10"/>

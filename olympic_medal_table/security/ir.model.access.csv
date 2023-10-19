@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_omt_athletes,access.omt.athletes,model_omt_athletes,,1,1,1,1
+access_omt_olympic_game,access.omt.olympic.game,model_omt_olympic_game,,1,1,1,1

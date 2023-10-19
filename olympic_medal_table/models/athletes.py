@@ -10,5 +10,7 @@ class Athletes(models.Model):
     silver = fields.Integer('silver')
     bronze = fields.Integer('bronze')
     active = fields.Boolean('active', default=True)
+
+    olympic_game_id = fields.Many2one('omt.olympic.game', string='Olympic Game')
     
     
