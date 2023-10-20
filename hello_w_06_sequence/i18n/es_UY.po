@@ -1,0 +1,133 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hello_w_06_sequence
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-20 15:54+0000\n"
+"PO-Revision-Date: 2023-10-20 15:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields.selection,name:hello_w_06_sequence.selection__ej_pet__type__bird
+msgid "Bird"
+msgstr "Pájaro"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields.selection,name:hello_w_06_sequence.selection__ej_pet__type__cat
+msgid "Cat"
+msgstr "Gato"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields.selection,name:hello_w_06_sequence.selection__ej_pet__type__dog
+msgid "Dog"
+msgstr "Perro"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields.selection,name:hello_w_06_sequence.selection__ej_pet__type__fish
+msgid "Fish"
+msgstr "Pez"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet____last_update
+msgid "Last Modified on"
+msgstr "Ultima modificación el"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet__write_uid
+msgid "Last Updated by"
+msgstr "última actualización por"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields.selection,name:hello_w_06_sequence.selection__ej_pet__type__other
+msgid "Other"
+msgstr "Otro"
+
+#. module: hello_w_06_sequence
+#: model:ir.ui.menu,name:hello_w_06_sequence.ej_pets_action_sub_menu
+#: model:ir.ui.menu,name:hello_w_06_sequence.ej_pets_menu
+#: model:ir.ui.menu,name:hello_w_06_sequence.ej_pets_sub_menu
+msgid "Pets"
+msgstr "Mascotas"
+
+#. module: hello_w_06_sequence
+#: model_terms:ir.ui.view,arch_db:hello_w_06_sequence.ej_pet_view_form
+msgid "Pets List"
+msgstr "Lista de Mascotas"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet__pretty_name
+msgid "Pretty Name"
+msgstr "Bonito Nombre"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet__age
+msgid "age"
+msgstr "edad"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet__code
+msgid "code"
+msgstr "código"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet__color
+msgid "color"
+msgstr "color"
+
+#. module: hello_w_06_sequence
+#: model:ir.model,name:hello_w_06_sequence.model_ej_pet
+msgid "ej.pet"
+msgstr ""
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet__is_new
+msgid "is_new"
+msgstr "es nuevo"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet__name
+msgid "name"
+msgstr "name"
+
+#. module: hello_w_06_sequence
+#: model:ir.actions.act_window,name:hello_w_06_sequence.action_ej_pet
+msgid "pet"
+msgstr "mascota"
+
+#. module: hello_w_06_sequence
+#: model:ir.model.fields,field_description:hello_w_06_sequence.field_ej_pet__type
+msgid "type"
+msgstr "tipo"

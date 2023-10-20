@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="ej_pet_data" model="ej.pet">
+            <field name="name">Maria</field>
+            <field name="age">1</field>
+            <field name="color">black</field>
+        </record>
+
+        <record id="ej_pet1_data" model="ej.pet">
+            <field name="name">Max</field>
+            <field name="age">3</field>
+            <field name="color">red</field>
+            <field name="pretty_name">True</field>
+        </record>
+
+        <record id="ej_pet2_data" model="ej.pet">
+            <field name="name">Test</field>
+            <field name="age">6</field>
+            <field name="color">green</field>
+            <field name="pretty_name">1</field>
+        </record>
+    </data>
+</odoo>
