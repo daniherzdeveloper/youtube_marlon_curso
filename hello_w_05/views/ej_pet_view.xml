@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- tree views -->
+    <record id="ej_pet_view_tree" model="ir.ui.view">
+        <field name="name">ej.pet.view.tree</field>
+        <field name="model">ej.pet</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" optional="show"/>
+                <field name="age" />
+                <field name="color" />
+                <field name="type" />
+                <field name="is_new" />
+                <field name="pretty_name" />     
+            </tree>
+        </field>
+    </record>
+
+    <!-- form views -->
+    <record id="ej_pet_view_form" model="ir.ui.view">
+        <field name="name">ej.pet.view.form</field>
+        <field name="model">ej.pet</field>
+        <field name="arch" type="xml">
+            <form string="Pets List">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" />
+                            <field name="age" />
+                            <field name="is_new" />
+                        </group>
+                        <group>
+                           <field name="color" />
+                           <field name="type" />
+                           <field name="pretty_name" /> 
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_ej_pet" model="ir.actions.act_window">
+        <field name="name">pet</field>
+        <field name="res_model">ej.pet</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="ej_pet_view_tree"/>
+    </record>
+    
+    <menuitem
+        id="ej_pets_menu"
+        name="Pets"
+        sequence="10"/>
+
+    <menuitem
+        id="ej_pets_sub_menu"
+        name="Pets"
+        parent="ej_pets_menu"
+        sequence="10"/>
+
+    <menuitem
+        id="ej_pets_action_sub_menu"
+        name="Pets"
+        action="action_ej_pet"
+        parent="ej_pets_sub_menu"
+        sequence="10"/>
+</odoo>
