@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="custom_sale_report_inherit" inherit_id="sale.report_saleorder_document">
+            <xpath expr="//div[hasclass('page')]" position="after">
+                <!-- Tables for signatures -->
+                <div class="row">
+                    <div class="col-6 my-5">
+                        <div class="clearfix mb-4" style="padding-left: 100px;">
+                            <div id="total">
+                                <div t-attf-class="#{'col-6' if report_type != 'html' else 'col-sm-7 col-md-6'}">
+                                    <table class="table table-sm table-borderless" style="page-break-inside: avoid;">
+                                        <tbody>
+                                            <tr class="border-black o_subtotal">
+                                                <td>
+                                                    <strong>Elaborado por: </strong>
+                                                </td>
+                                                <td class="text-end">
+                                                    <span t-field="user.name"/>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="text-nowrap">Firma: _______________</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 my-5">
+                        <div class="clearfix mb-4" style="padding-left: 100px;">
+                            <div id="total">
+                                <div t-attf-class="#{'col-6' if report_type != 'html' else 'col-sm-7 col-md-6'}">
+                                    <table class="table table-sm table-borderless" style="page-break-inside: avoid;">
+                                        <tbody>
+                                            <tr class="border-black o_subtotal">
+                                                <td>
+                                                    <strong>Cliente: </strong>
+                                                </td>
+                                                <td class="text-end">
+                                                    <span t-field="doc.partner_id"/>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="text-nowrap">Firma: _______________</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </template>   
+    </data>
+</odoo>
