@@ -3,9 +3,9 @@ import csv
 
 host = '127.0.0.1'
 port = 8069
-db = 'db'
+db = 'desoft'
 user = 'admin'
-password = 'pass'
+password = 'admin'
 
 url = 'http://%s:%d/xmlrpc/2/' % (host, port)
 
@@ -19,7 +19,7 @@ def _create(state):
     print("=1=")
     print(state)
     if state is True:
-        archive = csv.DictReader(open('ruta al archivo'))
+        archive = csv.DictReader(open('D:\\Intall\\install\\desoft\\odoo-16.0\\custom\\addons\\youtube_marlon_curso\\hello_w_11_modificar_datos_xml_rpc\\data.csv'))
         cont = 0
         for field in archive:
             cont += 1
@@ -31,22 +31,20 @@ def _create(state):
             vals['name'] = _name
             vals['list_price'] = _list_price
             # vals['phone'] = _phone
-            vals['active'] = True
+            # vals['active'] = True
             print(vals)
 
             # Validate the register does not exist
             _id = object_proxy.execute_kw(db, uid, password, 'product.template', 'search', [[['name', '=', _name]]])
             if _id:
-                print('= El registro ya existe =')
-            else:
-                new_product = object_proxy.execute(db, uid, password, 'product.template', 'create', vals)
+                new_product = object_proxy.execute(db, uid, password, 'product.template', 'write', _id, vals)
                 if new_product:
-                    print("Se ha creado el registro: ")
+                    print("Se ha modificado el registro: ")
                 else:
-                    print("No se ha creado el registro: ")
+                    print("No se ha modificado el registro: ")
             
         cont += 1
-        print("Se han creado: ", cont)
+        print("Se han modificado: ", cont)
 
 
 def main():
