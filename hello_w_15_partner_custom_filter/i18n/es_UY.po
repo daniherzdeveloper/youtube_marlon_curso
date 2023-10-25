@@ -1,0 +1,52 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hello_w_15_partner_custom_filter
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-25 21:37+0000\n"
+"PO-Revision-Date: 2023-10-25 21:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hello_w_15_partner_custom_filter
+#: model_terms:ir.ui.view,arch_db:hello_w_15_partner_custom_filter.res_partner_view_search_inherit
+msgid "C.P."
+msgstr "C.P"
+
+#. module: hello_w_15_partner_custom_filter
+#: model_terms:ir.ui.view,arch_db:hello_w_15_partner_custom_filter.res_partner_view_search_inherit
+msgid "City"
+msgstr "Ciudad"
+
+#. module: hello_w_15_partner_custom_filter
+#: model_terms:ir.ui.view,arch_db:hello_w_15_partner_custom_filter.res_partner_view_search_inherit
+msgid "With NIF"
+msgstr "Con NIF"
+
+#. module: hello_w_15_partner_custom_filter
+#: model:ir.model,name:hello_w_15_partner_custom_filter.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: hello_w_15_partner_custom_filter
+#: model:ir.model.fields,field_description:hello_w_15_partner_custom_filter.field_res_partner__has_vat
+#: model:ir.model.fields,field_description:hello_w_15_partner_custom_filter.field_res_users__has_vat
+msgid "Has VAT"
+msgstr "Con IVA"
+
+#. module: hello_w_15_partner_custom_filter
+#: model_terms:ir.ui.view,arch_db:hello_w_15_partner_custom_filter.res_partner_view_search_inherit
+msgid "NIF"
+msgstr "NIF"
+
+#. module: hello_w_15_partner_custom_filter
+#: model_terms:ir.ui.view,arch_db:hello_w_15_partner_custom_filter.res_partner_view_search_inherit
+msgid "Without NIF"
+msgstr "Sin NIF"
