@@ -1,0 +1,73 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hello_w_16_export_partner_excel
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-27 15:19+0000\n"
+"PO-Revision-Date: 2023-10-27 15:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hello_w_16_export_partner_excel
+#: model_terms:ir.ui.view,arch_db:hello_w_16_export_partner_excel.form_wizard_partner_export_excel
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: hello_w_16_export_partner_excel
+#: model:ir.model.fields,field_description:hello_w_16_export_partner_excel.field_partner_export_excel__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: hello_w_16_export_partner_excel
+#: model:ir.model.fields,field_description:hello_w_16_export_partner_excel.field_partner_export_excel__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: hello_w_16_export_partner_excel
+#: model:ir.model.fields,field_description:hello_w_16_export_partner_excel.field_partner_export_excel__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: hello_w_16_export_partner_excel
+#: model:ir.model.fields,field_description:hello_w_16_export_partner_excel.field_partner_export_excel__display_name
+msgid "Display Name"
+msgstr "Nombre para Mostrar"
+
+#. module: hello_w_16_export_partner_excel
+#: model_terms:ir.ui.view,arch_db:hello_w_16_export_partner_excel.form_wizard_partner_export_excel
+msgid "Export"
+msgstr "Exportar"
+
+#. module: hello_w_16_export_partner_excel
+#: model:ir.actions.act_window,name:hello_w_16_export_partner_excel.action_export_partner_excel
+#: model:ir.model,name:hello_w_16_export_partner_excel.model_partner_export_excel
+#: model:ir.ui.menu,name:hello_w_16_export_partner_excel.submenu_export_partner_excel
+msgid "Export Partner Excel"
+msgstr "Exportar Partner Excel"
+
+#. module: hello_w_16_export_partner_excel
+#: model:ir.model.fields,field_description:hello_w_16_export_partner_excel.field_partner_export_excel__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hello_w_16_export_partner_excel
+#: model:ir.model.fields,field_description:hello_w_16_export_partner_excel.field_partner_export_excel____last_update
+msgid "Last Modified on"
+msgstr "Ultima Modificación el"
+
+#. module: hello_w_16_export_partner_excel
+#: model:ir.model.fields,field_description:hello_w_16_export_partner_excel.field_partner_export_excel__write_uid
+msgid "Last Updated by"
+msgstr "Ultima actualización por"
+
+#. module: hello_w_16_export_partner_excel
+#: model:ir.model.fields,field_description:hello_w_16_export_partner_excel.field_partner_export_excel__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
