@@ -1,0 +1,98 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hello_w_17_import_partner
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-28 15:20+0000\n"
+"PO-Revision-Date: 2023-10-28 15:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields,field_description:hello_w_17_import_partner.field_partner_import__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields,field_description:hello_w_17_import_partner.field_partner_import__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields.selection,name:hello_w_17_import_partner.selection__partner_import__type__csv
+msgid "Csv"
+msgstr "CSV"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields,field_description:hello_w_17_import_partner.field_partner_import__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields.selection,name:hello_w_17_import_partner.selection__partner_import__type__xls
+msgid "Excel"
+msgstr "Excel"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields,field_description:hello_w_17_import_partner.field_partner_import__file
+msgid "File"
+msgstr "Archivo"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields,field_description:hello_w_17_import_partner.field_partner_import__file_name
+msgid "File Name"
+msgstr "Nombre de Archivo"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields,field_description:hello_w_17_import_partner.field_partner_import__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hello_w_17_import_partner
+#: model_terms:ir.ui.view,arch_db:hello_w_17_import_partner.partner_import_view_form
+msgid "Import"
+msgstr "Importar"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields,field_description:hello_w_17_import_partner.field_partner_import__imported
+msgid "Imported"
+msgstr "Importado"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields,field_description:hello_w_17_import_partner.field_partner_import____last_update
+msgid "Last Modified on"
+msgstr "Ultima modificacion el"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields,field_description:hello_w_17_import_partner.field_partner_import__write_uid
+msgid "Last Updated by"
+msgstr "Ultima actualizacion por"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields,field_description:hello_w_17_import_partner.field_partner_import__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualizacion en"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields,field_description:hello_w_17_import_partner.field_partner_import__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: hello_w_17_import_partner
+#: model:ir.actions.act_window,name:hello_w_17_import_partner.partner_import_view_action
+#: model:ir.model,name:hello_w_17_import_partner.model_partner_import
+#: model:ir.ui.menu,name:hello_w_17_import_partner.partner_import_view_menu
+msgid "Partner Import"
+msgstr "Importar Partner"
+
+#. module: hello_w_17_import_partner
+#: model:ir.model.fields,field_description:hello_w_17_import_partner.field_partner_import__type
+msgid "Type"
+msgstr "Tipo"
