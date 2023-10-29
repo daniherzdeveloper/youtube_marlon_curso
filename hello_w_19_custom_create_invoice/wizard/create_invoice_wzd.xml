@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <odoo>
+        <data>
+            <record id="form_wizard_create_invoice" model="ir.ui.view">
+            <field name="name">form.wizard.create.invoice</field>
+            <field name="model">create.invoice</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <group>
+                            <field name="partner_id" options="{'no_create': True, 'no_open': True}" placeholder="Partner"/>
+                            <field name="product_id" options="{'no_create': True, 'no_open': True}" placeholder="Product"/>
+                            <field name="quantity" placeholder="Quantity"/>
+                            <field name="price_unit" placeholder="Unit Price"/>
+                        </group>
+                        <group>
+                            <field name="date_invoice" placeholder="Invoice Date"/>
+                            <field name="invoice_payment_term_id" options="{'no_create': True, 'no_open': True}" placeholder="Payment Term"/>
+                            <field name="journal_id" options="{'no_create': True, 'no_open': True}" placeholder="Journal"/>
+                        </group>
+                        <group>
+                            <field name="analytic_account_id" options="{'no_create': True, 'no_open': True}" placeholder="Analytic Account"/>
+                            <field name="company_id" groups="base.group_multi_company" placeholder="Company"/>
+                            <field name="company_id" invisible="1"/>
+                            <field name="notes" placeholder="Notes"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <button string="Create Invoice" name="action_create_invoice" type="object" class="btn-primary"/>
+                        <button string="Cancel" class="oe_link" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_create_invoice" model="ir.actions.act_window">
+            <field name="name">Create Invoice</field>
+            <field name="res_model">create.invoice</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+        <menuitem id="submenu_create_invoice"
+                  name="Create Invoice"
+                  action="action_create_invoice"
+                  parent="account.menu_finance_receivables"
+                  sequence="2"/>
+
+        </data>
+    </odoo>
