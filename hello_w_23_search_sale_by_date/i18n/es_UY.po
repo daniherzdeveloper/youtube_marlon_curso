@@ -1,0 +1,83 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hello_w_23_search_sale_by_date
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-31 19:15+0000\n"
+"PO-Revision-Date: 2023-10-31 19:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hello_w_23_search_sale_by_date
+#: model_terms:ir.ui.view,arch_db:hello_w_23_search_sale_by_date.search_sale_by_date_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: hello_w_23_search_sale_by_date
+#: model:ir.model.fields,field_description:hello_w_23_search_sale_by_date.field_search_sale_by_date__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: hello_w_23_search_sale_by_date
+#: model:ir.model.fields,field_description:hello_w_23_search_sale_by_date.field_search_sale_by_date__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: hello_w_23_search_sale_by_date
+#: model:ir.model.fields,field_description:hello_w_23_search_sale_by_date.field_search_sale_by_date__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: hello_w_23_search_sale_by_date
+#: model:ir.model.fields,field_description:hello_w_23_search_sale_by_date.field_search_sale_by_date__days_ago
+msgid "Days ago"
+msgstr "hace días"
+
+#. module: hello_w_23_search_sale_by_date
+#: model:ir.model.fields,field_description:hello_w_23_search_sale_by_date.field_search_sale_by_date__display_name
+msgid "Display Name"
+msgstr "Nombre para Mostrar"
+
+#. module: hello_w_23_search_sale_by_date
+#: model:ir.model.fields,field_description:hello_w_23_search_sale_by_date.field_search_sale_by_date__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hello_w_23_search_sale_by_date
+#: model:ir.model.fields,field_description:hello_w_23_search_sale_by_date.field_search_sale_by_date____last_update
+msgid "Last Modified on"
+msgstr "Ultima modificación el"
+
+#. module: hello_w_23_search_sale_by_date
+#: model:ir.model.fields,field_description:hello_w_23_search_sale_by_date.field_search_sale_by_date__write_uid
+msgid "Last Updated by"
+msgstr "Ultima actualización por"
+
+#. module: hello_w_23_search_sale_by_date
+#: model:ir.model.fields,field_description:hello_w_23_search_sale_by_date.field_search_sale_by_date__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: hello_w_23_search_sale_by_date
+#: model:ir.model.fields,field_description:hello_w_23_search_sale_by_date.field_search_sale_by_date__date
+msgid "Sale Date"
+msgstr "Fecha de Venta"
+
+#. module: hello_w_23_search_sale_by_date
+#: model:ir.model,name:hello_w_23_search_sale_by_date.model_search_sale_by_date
+msgid "Search Sale By Date"
+msgstr "Buscar Venta por fecha"
+
+#. module: hello_w_23_search_sale_by_date
+#: model:ir.actions.act_window,name:hello_w_23_search_sale_by_date.action_search_sales
+#: model:ir.ui.menu,name:hello_w_23_search_sale_by_date.submenu_search_sale_menu
+#: model_terms:ir.ui.view,arch_db:hello_w_23_search_sale_by_date.search_sale_by_date_wizard
+msgid "Search Sales"
+msgstr "Buscar Ventas"
