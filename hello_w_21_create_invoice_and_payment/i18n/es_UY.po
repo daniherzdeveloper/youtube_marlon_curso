@@ -1,0 +1,166 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hello_w_21_create_invoice_and_payment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-31 15:28+0000\n"
+"PO-Revision-Date: 2023-10-31 15:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__analytic_account_id
+msgid "Analytic Account"
+msgstr "Cuenta Analítica"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__company_id
+msgid "Company"
+msgstr "Compañia"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model,name:hello_w_21_create_invoice_and_payment.model_create_invoice_model
+#: model_terms:ir.ui.view,arch_db:hello_w_21_create_invoice_and_payment.form_create_invoice
+msgid "Create Invoice"
+msgstr "Crear factura"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.actions.act_window,name:hello_w_21_create_invoice_and_payment.action_create_invoice
+msgid "Create Invoice and Payment"
+msgstr "Crear factura y pago"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.ui.menu,name:hello_w_21_create_invoice_and_payment.submenu_create_invoice
+msgid "Create Invoice/ Payment"
+msgstr "Crear Factura / Pago"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model_terms:ir.ui.view,arch_db:hello_w_21_create_invoice_and_payment.form_create_invoice
+msgid "Create Payment"
+msgstr "Crear Pago"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__partner_id
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__display_name
+msgid "Display Name"
+msgstr "Nombre para Mostrar"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields.selection,name:hello_w_21_create_invoice_and_payment.selection__create_invoice_model__state__draft
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__invoice_id
+#: model:ir.model.fields.selection,name:hello_w_21_create_invoice_and_payment.selection__create_invoice_model__state__invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__date_invoice
+msgid "Invoice Date"
+msgstr "Fecha de la Factura"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__journal_id
+msgid "Journal"
+msgstr "Diario"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model____last_update
+msgid "Last Modified on"
+msgstr "Ultima modificación el"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__write_uid
+msgid "Last Updated by"
+msgstr "Ultima actualización por"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__notes
+#: model_terms:ir.ui.view,arch_db:hello_w_21_create_invoice_and_payment.form_create_invoice
+msgid "Notes"
+msgstr "Notas"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__payment_id
+#: model:ir.model.fields.selection,name:hello_w_21_create_invoice_and_payment.selection__create_invoice_model__state__payment
+msgid "Payment"
+msgstr "Pago"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__payment_journal_id
+msgid "Payment Journal"
+msgstr "Diario de Pago"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__invoice_payment_term_id
+msgid "Payment Terms"
+msgstr "Términos de Pago"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__quantity
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields.selection,name:hello_w_21_create_invoice_and_payment.selection__create_invoice_model__state__reconcile
+#: model_terms:ir.ui.view,arch_db:hello_w_21_create_invoice_and_payment.form_create_invoice
+msgid "Reconcile"
+msgstr "Conciliar"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__state
+msgid "State"
+msgstr "Estado"
+
+#. module: hello_w_21_create_invoice_and_payment
+#: model:ir.model.fields,field_description:hello_w_21_create_invoice_and_payment.field_create_invoice_model__price_unit
+msgid "Unit Price"
+msgstr "Precio unitario"
