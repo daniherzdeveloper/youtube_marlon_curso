@@ -1,0 +1,1 @@
+from . import setting, sale_order, stock_picking
